@@ -1,0 +1,65 @@
+
+
+.card{
+    margin-top: 80px;
+    margin-left: 300px;
+    max-width: 45rem; 
+    background-color: black; 
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+.container #video {
+    width: 717px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+#video:hover{
+    background-color: rgb(62, 60, 60);
+}
+.play-button {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer; 
+  }
+
+  .play-button-icon {
+    color: #FFF; 
+    font-size: 48px; 
+  }
+  .pause-button {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100px; 
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center; 
+    display: none; 
+    cursor: pointer;
+  }
+
+  .pause-button-icon {
+    color: #FFF;
+    font-size: 48px; 
+  }
+
